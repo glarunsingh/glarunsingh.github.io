@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+    <title>Arun Singh G</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Arun Singh G</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Arun Singh G</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="circular--square" src="./assets/profile-pic.png" alt="Arun Singh G profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Hello, I'm
+            </p>
+            <h1 class="title">
+                Arun Singh G
+            </h1>
+            <p class="section__text__p2">
+                RPA developer
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                        onclick="window.open('./assets/ArunSinghG_RPASpecialist.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1"
+                        onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png"
+                     alt="My LinkedIn profile"
+                     class="icon"
+                     onclick="window.open('https://www.linkedin.com/in/glarunsingh/')" />
+                <img src="./assets/github.png"
+                     alt="My github profile"
+                     class="icon"
+                     onclick="window.open('https://github.com/glarunsingh')" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png"
+                     alt="Profile picture"
+                     class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png"
+                             alt="Experience icon"
+                             class="icon" />
+                        <h3>Experience</h3>
+                        <p>10+ years <br />IT Industry Experience</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png"
+                             alt="Education icon"
+                             class="icon" />
+                        <h3>Education</h3>
+                        <p>B.C.A Bachelors Degree<br />M.C.A Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        RPA Specialist with 10+ years exposure to IT industry with 5+ years of expertise in RPA, experience in both product and
+                        service industry. Developed detailed project timelines and proposed new solutions that lead to significant growth in
+                        annual revenue. Built solid relationships with 10+ clients to ensure quality customer service and lean product
+                        development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#skills'" />
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">RPA Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>UiPath</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Power Automate</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>RE-Framework</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>DU</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Macros</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Insights</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">AI/ML Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Analytics</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>LangChain</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                 alt="Skill icon"
+                                 class="icon" />
+                            <div>
+                                <h3>StreamLit</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="exp-item">
+            <div class="org-img">
+                <a href="https://www.cognizant.com/" target="_blank">
+                    <img src="./assets/cognizant-logo.png" alt="Cognizant">
+                </a>
+            </div>
+            <div class="exp-details">
+                <h4 class="role-name">Senior Associate</h4>
+                <div class="role-org-name">Cognizant</div>
+                <div class="role-duration">Nov 2021 - Present</div>
+                <div class="role-desc">
+                    <ul>
+                        <li>
+                            Developed strong cross-functional relationships with big clients and
+                            stakeholders across different levels of the business.
+                        </li>
+                        <li>
+                            Owning a client's project end-to-end from requirement gathering to
+                            deployment, including CI/CD, Devops, and Github.
+                        </li>
+                        <li>
+                            Leading monthly meetings with four project teams to identify and resolve
+                            software development challenges.
+                        </li>
+                        <li>
+                            Designed custom RE-Frameworks for project needs and individually
+                            completed 25+ Bot developments
+                        </li>
+                        <li>
+                            developed Insight dashboards for reporting and metrics.
+                        </li>
+                        <li>
+                            Expertise in Excel, SharePoint, SAP, Web and Citrix automation. Extensive
+                            knowledge in Macros, Queues, C#, LINQ and regex.
+                        </li>
+                        <li>Interviewed more than 100+ candidates in hiring process.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="org-img">
+                <a href="https://www.borngroup.com/" target="_blank">
+                    <img src="./assets/born-logo.png" alt="Born Group">
+                </a>
+            </div>
+            <div class="exp-details">
+                <h4 class="role-name">Senior Software Engineer</h4>
+                <div class="role-org-name">Born Group</div>
+                <div class="role-duration">Aug 2016 - Sep 2019</div>
+                <div class="role-desc">
+                    <ul>
+                        <li>
+                            Extensive experience in gathering requirements, creating Process Understanding Documents (PDDs), and providing effective solutions using Solution Design Documents (SDDs)
+                        </li>
+                        <li>
+                            Maintaining a proactive approach to customers' requests, solving huddles
+                            while automating, and clearing roadblocks to get the desired result.
+                        </li>
+                        <li>Worked with clients like Wallmart, CSV, office depot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="exp-item">
+            <div class="org-img">
+                <a href="https://www.amazon.com/" target="_blank">
+                    <img src="./assets/amazon-logo.png" alt="Amazon">
+                </a>
+            </div>
+            <div class="exp-details">
+                <h4 class="role-name">Software Engineer</h4>
+                <div class="role-org-name">Amazon</div>
+                <div class="role-duration">Jan 2014 - Aug 2016</div>
+                <div class="role-desc">
+                    <ul>
+                        <li>
+                            Worked across 6 Generations of Amazon Kindle devices from the scratch to
+                            successful customer release and various OTA builds for 9 generation
+                            devices.
+                        </li>
+                        <li>
+                            Took Complete ownership of Build acceptance testing (BAT/BVT) in 18
+                            locales with respective marketplaces and decided the QA acceptance/reject
+                            based on issues faced.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#projects'" />
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+          <div class="about-containers">
+              <div class="details-container color-container">
+                  <div class="article-container">
+                      <img src="./assets/project-1.png"
+                           alt="Project 1"
+                           class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Project One</h2>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Github
+                      </button>
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Live Demo
+                      </button>
+                  </div>
+              </div>
+              <div class="details-container color-container">
+                  <div class="article-container">
+                      <img src="./assets/project-2.png"
+                           alt="Project 2"
+                           class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Project Two</h2>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Github
+                      </button>
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Live Demo
+                      </button>
+                  </div>
+              </div>
+              <div class="details-container color-container">
+                  <div class="article-container">
+                      <img src="./assets/project-3.png"
+                           alt="Project 3"
+                           class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Project Three</h2>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Github
+                      </button>
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Live Demo
+                      </button>
+                  </div>
+              </div>
+              <div class="details-container color-container">
+                  <div class="article-container">
+                      <img src="./assets/project-3.png"
+                           alt="Project 3"
+                           class="project-img" />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Project Three</h2>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Github
+                      </button>
+                      <button class="btn btn-color-2 project-btn"
+                              onclick="location.href='https://github.com/'">
+                          Live Demo
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
